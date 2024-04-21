@@ -128,7 +128,20 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+@media all and (max-width: 1160px) {
+    body *{
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 768px){
+    body *{
+        max-width: 100%;
+    }
+}
+
 @media all and (max-width: 768px) {
+
     .container {
         width: 90%;
     }
@@ -167,7 +180,4 @@ img {
     section.why-us div.col{
         margin-bottom: 5rem;
     }
-
-
-    
 }
